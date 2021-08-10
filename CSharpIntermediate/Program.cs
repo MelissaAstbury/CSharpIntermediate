@@ -7,19 +7,24 @@ namespace CSharpIntermediate
     {
         static void Main(string[] args)
         {
-            var person = new Person();
+            var person = new Person(new DateTime(2020, 1, 1));
             person.Name = "Melissa";
-            person.Age = 23;
             person.Introduce("Good Morning");
+            person.SetGender("Female");
+            //Console.WriteLine(person.Age);
+
+
+
+            Console.WriteLine(person.GetGender());
 
             // Object Initialization - Used instead of 
-            var objectInitalisedPerson = new Person()
+            var objectInitalisedPerson = new Person(new DateTime(2000, 10, 7))
             {
                 Name = "Andrew",
-                Age = 26,
             };
             Console.WriteLine(objectInitalisedPerson.Name);
             Console.WriteLine(objectInitalisedPerson.Age);
+            Console.WriteLine(objectInitalisedPerson.Birthdate);
 
 
             var customer = new Customer(1, "Melissa");

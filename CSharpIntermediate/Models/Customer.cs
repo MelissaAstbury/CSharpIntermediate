@@ -8,7 +8,11 @@ namespace CSharpIntermediate.Models
     {
         public int Id;
         public string Name;
-        public List<Order> Orders;
+        // Use readonly so initialisation is once. You can not change the data
+        public readonly List<Order> Orders;
+
+        // We can remove the empty constructor with the following field instead:
+        // public readonly List<Order> Orders = new List<Order>();
 
         public Customer()
         {

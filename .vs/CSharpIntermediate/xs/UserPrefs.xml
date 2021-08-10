@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{A201E709-D43C-4768-91A9-40B24212E567}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CSharpIntermediate/Program.cs">
     <Files>
-      <File FileName="CSharpIntermediate/Program.cs" Line="18" Column="46" />
-      <File FileName="CSharpIntermediate/Models/Person.cs" Line="1" Column="1" />
+      <File FileName="CSharpIntermediate/Program.cs" Line="15" Column="1" />
+      <File FileName="CSharpIntermediate/Models/Person.cs" Line="40" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
