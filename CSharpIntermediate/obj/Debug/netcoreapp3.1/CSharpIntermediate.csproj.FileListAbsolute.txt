@@ -10,3 +10,4 @@
 /Users/melissaastbury/Documents/Study/CSharp/CSharpIntermediate/CSharpIntermediate/obj/Debug/netcoreapp3.1/CSharpIntermediate.dll
 /Users/melissaastbury/Documents/Study/CSharp/CSharpIntermediate/CSharpIntermediate/obj/Debug/netcoreapp3.1/CSharpIntermediate.pdb
 /Users/melissaastbury/Documents/Study/CSharp/CSharpIntermediate/CSharpIntermediate/obj/Debug/netcoreapp3.1/CSharpIntermediate.genruntimeconfig.cache
+/Users/melissaastbury/Documents/Study/CSharp/CSharpIntermediate/CSharpIntermediate/obj/Debug/netcoreapp3.1/CSharpIntermediate.GeneratedMSBuildEditorConfig.editorconfig

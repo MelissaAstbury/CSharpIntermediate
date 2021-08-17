@@ -3,15 +3,17 @@ namespace CSharpIntermediate.Models
 {
     public class Person
     {
+        // When you have auto-implemented properties such as get & set CSharp automatically sees this as a private field
+        // I have set the 'setter' to private because we have a method to work that out so it should never be changed by us
+        public DateTime Birthdate { get; private set; }
+        public string Name;
+        private string _gender; 
+
         public Person(DateTime birthdate)
         {
             Birthdate = birthdate;
         }
 
-        public string Name;
-        // When you have auto-implemented properties such as get & set CSharp automatically sees this as a private field
-        // I have set the 'setter' to private because we have a method to work that out so it should never be changed by us
-        public DateTime Birthdate { get; private set; }
         public int Age
         {
             get
@@ -22,7 +24,6 @@ namespace CSharpIntermediate.Models
                 return years;
             }
         }
-        private string _gender; 
 
 
         public void Introduce(string greeting)

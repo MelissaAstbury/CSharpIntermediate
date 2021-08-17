@@ -30,6 +30,21 @@ namespace CSharpIntermediate
             var customer = new Customer(1, "Melissa");
             Console.WriteLine(customer.Id);
             Console.WriteLine(customer.Name);
+
+
+            var cookie = new HttpCookie();
+            cookie["name"] = "Deno";
+            Console.WriteLine(cookie["name"]);
+
+            // Inheritance
+            var Animal = new Animal();
+            Animal.Eat();
+            Animal.Sleep();
+
+            var Dog = new Dog();
+            Dog.Eat();
+            Dog.Sleep();
+
         }
     }
 }
