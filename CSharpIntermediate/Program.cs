@@ -45,6 +45,13 @@ namespace CSharpIntermediate
             Dog.Eat();
             Dog.Sleep();
 
+
+            // Composition
+            var migrator = new Migrator(new Logger());
+            var installer = new Installer(new Logger());
+
+            migrator.Migrate();
+            installer.Install();
         }
     }
 }

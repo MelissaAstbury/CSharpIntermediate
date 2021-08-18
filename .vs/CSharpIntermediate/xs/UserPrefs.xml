@@ -1,20 +1,20 @@
 ﻿<Properties StartupConfiguration="{A201E709-D43C-4768-91A9-40B24212E567}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpIntermediate/Program.cs">
+    <Files>
+      <File FileName="CSharpIntermediate/Models/Logger.cs" Line="12" Column="2" />
+      <File FileName="CSharpIntermediate/Models/Installer.cs" Line="18" Column="1" />
+      <File FileName="CSharpIntermediate/Models/Migrator.cs" Line="1" Column="1" />
+      <File FileName="CSharpIntermediate/Program.cs" Line="50" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSharpIntermediate" expanded="True">
             <Node name="CSharpIntermediate" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="Dog.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>customer</Value>
         </State>
       </Pad>
     </Pads>
