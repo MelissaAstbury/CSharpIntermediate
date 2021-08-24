@@ -1,4 +1,5 @@
 ﻿using System;
+using CSharpIntermediate.Casting;
 using CSharpIntermediate.Models;
 
 namespace CSharpIntermediate
@@ -55,6 +56,22 @@ namespace CSharpIntermediate
 
             // Constructor Inheritance (base executed first & are not inherited)
             var car = new Car("123asdf");
+
+            // Casting - both reference the same object but both has different views
+            // Upcasting
+            Text text = new Text();
+            Shape shape = text;
+
+            text.Width = 200;
+            shape.Width = 100;
+            Console.WriteLine(text.Width);
+
+            // at runtime shape will be text and you will see all properties...
+            // Downcasting
+            Shape shape2 = new Text();
+            Text text2 = (Text) shape2;
+            text.
+
         }
     }
 }

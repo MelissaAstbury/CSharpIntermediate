@@ -7,8 +7,10 @@
 
   <ItemGroup>
     <None Remove="Models\" />
+    <None Remove="Casting\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Casting\" />
   </ItemGroup>
 </Project>
