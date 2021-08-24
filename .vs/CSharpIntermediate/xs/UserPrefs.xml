@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{A201E709-D43C-4768-91A9-40B24212E567}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpIntermediate/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpIntermediate/Models/Vehicle.cs">
     <Files>
-      <File FileName="CSharpIntermediate/Models/Logger.cs" Line="12" Column="2" />
-      <File FileName="CSharpIntermediate/Models/Installer.cs" Line="18" Column="1" />
-      <File FileName="CSharpIntermediate/Models/Migrator.cs" Line="1" Column="1" />
-      <File FileName="CSharpIntermediate/Program.cs" Line="50" Column="1" />
+      <File FileName="CSharpIntermediate/Program.cs" Line="54" Column="33" />
+      <File FileName="CSharpIntermediate/Models/Vehicle.cs" Line="13" Column="1" />
+      <File FileName="CSharpIntermediate/Models/Car.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSharpIntermediate" expanded="True">
             <Node name="CSharpIntermediate" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Vehicle.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

@@ -52,6 +52,9 @@ namespace CSharpIntermediate
 
             migrator.Migrate();
             installer.Install();
+
+            // Constructor Inheritance (base executed first & are not inherited)
+            var car = new Car("123asdf");
         }
     }
 }
